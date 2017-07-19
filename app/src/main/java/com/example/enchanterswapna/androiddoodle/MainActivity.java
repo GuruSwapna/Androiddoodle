@@ -198,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
                             && perms.get(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
                             && perms.get(Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED */
                     if (perms.get(Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED){
+
                         Log.v(TAG, "sms & location services permission granted");
                         // process the normal flow
                         Intent i = new Intent(MainActivity.this, MainActivity.class);
