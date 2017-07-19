@@ -128,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onColorChosen(@ColorInt int color) {
                 //drawDoodle.invalidate();
-                drawDoodle.setBackgroundColor(color);
+              //  drawDoodle.setBackgroundColor(color);
+                drawDoodle.setBackground(getResources().getDrawable(R.drawable.ic_launcher));
                 colorPicker.dismiss();
             }
         });

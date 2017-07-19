@@ -48,6 +48,7 @@ public class DrawingDoodle extends View {
 
         //Canvas canvas = new Canvas(bitmap);
         canvasPaint = new Paint(Paint.DITHER_FLAG);
+
     }
 
     @Override
