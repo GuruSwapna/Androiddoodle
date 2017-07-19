@@ -64,6 +64,7 @@ public class DrawingDoodle extends View {
         canvas.drawPath(drawPath, drawPaint);
     }
 
+
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         //detect user touch
